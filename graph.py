@@ -1,7 +1,6 @@
 '''
 Jared Bawden
-Project 8 - Graphs
-Graph project using adjacency lists
+Project - Graphs
 '''
 
 class Graph:
@@ -121,7 +120,7 @@ class Graph:
             return_string += f'{vertex}\t{self.vertices[vertex]}\n'
         return return_string
 
-'''
+
 def main():
     g = Graph()
 
@@ -162,4 +161,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-'''
